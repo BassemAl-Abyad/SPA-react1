@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
-import mainImage from './src/assets/main.png';
+import mainImage from '/assets/main.png';
 
 export default function Home() {
   return (
