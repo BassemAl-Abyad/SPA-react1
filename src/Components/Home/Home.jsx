@@ -8,7 +8,7 @@ export default function Home() {
         <div className="d-flex flex-column align-items-center justify-content-center p-2">
           <img
             className="w-25 img-fluid"
-            src="src\assets\main.png"
+            src="/src/assets/main.png"
             alt="mainpic"
           />
         </div>
