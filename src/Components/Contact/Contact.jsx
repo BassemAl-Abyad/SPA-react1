@@ -23,6 +23,7 @@ export default function Contact() {
               id="name"
               placeholder="Name"
               name="name"
+              autocomplete="name"
             />
             <input
               type="number"
@@ -30,6 +31,7 @@ export default function Contact() {
               id="age"
               placeholder="Age"
               name="age"
+              autocomplete="off"
             />
             <input
               type="email"
@@ -37,6 +39,7 @@ export default function Contact() {
               id="email"
               placeholder="Email"
               name="email"
+              autocomplete="email"
             />
             <input
               type="password"
@@ -44,6 +47,7 @@ export default function Contact() {
               id="password"
               placeholder="Password"
               name="password"
+              autocomplete="new-password"
             />
             <button
               className="btn btn-main align-self-start my-2"
